@@ -1,0 +1,25 @@
+{
+  "name": "transcript-store-service",
+  "version": "1.0.0",
+  "description": "a serverless service to store data in AWS for consumption by POC-transcript-store-ipfs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pbcone/transcript-store-service.git"
+  },
+  "author": "Matti Cone (mcone@cbtnuggets.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pbcone/transcript-store-service/issues"
+  },
+  "homepage": "https://github.com/pbcone/transcript-store-service#readme",
+  "dependencies": {
+    "aws-sdk": "^2.193.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "serverless-http": "^1.5.3"
+  }
+}
